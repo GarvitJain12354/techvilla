@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div id="#footer" className="w-full h-fit border-t-2 flex items-center justify-center px-16 py-8  bg-black relative text-white max-md:flex-col">
+      <div id="footer" className="w-full h-fit border-t-2 flex items-center justify-center px-16 py-8  bg-black relative text-white max-md:flex-col">
         <div className="blue"></div>
         <div className="violet"></div>
         <iframe

@@ -5,6 +5,13 @@
   font-family: under;
   src: url(../public/Under\ Station.ttf);
 }
+@font-face {
+  font-family: gilroy;
+  src: url(../public/Gilroy-Regular.otf);
+}
+html,body{
+  font-family: gilroy;
+}
 ::-webkit-scrollbar {
   width: 10px;
   background-color: transparent;

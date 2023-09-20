@@ -43,10 +43,13 @@ const Page4 = () => {
        <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 w-48 rounded-lg' src={"/aathar.png"} alt="" />
         <h1 className='text-xl'>Athar Khan</h1>
-        <h3>secretary</h3>
+        <h3>Secretary</h3>
        </div>
-       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
-        <img className='h-48 object-contain rounded-xl' src={"/Garvit.png"} alt="" />
+      
+      </div>
+      <div className="flex flex-wrap  w-full items-center justify-center gap-8">
+      <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
+        <img className='h-48 object-contain rounded-xl' src={"/garvit.png"} alt="" />
         <h1 className='text-xl'>Garvit Jain</h1>
         <h3>Web Developer</h3>
        </div>
@@ -55,13 +58,14 @@ const Page4 = () => {
         <h1 className='text-xl'>Akshat Gupta</h1>
         <h3>Marketing &  PR</h3>
        </div>
-      </div>
-      <div className="flex flex-wrap relative z-40 w-full items-center justify-center gap-8 ">
-      <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
+       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 w-52 object-cover rounded-lg' src={"/Merrena.png"} alt="" />
         <h1 className='text-xl'>Mereena R Thomas</h1>
         <h3>Graphic Designer</h3>
        </div>
+      </div>
+      <div className="flex flex-wrap relative z-40 w-full items-center justify-center gap-8 ">
+     
       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 w-48 rounded-lg' src={"/mansi.png"} alt="" />
         <h1 className='text-xl'>Tanya Talreja</h1>
