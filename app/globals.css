@@ -1,27 +1,83 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: under;
+  src: url(../public/Under\ Station.ttf);
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey; */
+  /* border-radius: 10px; */
+  background-color: transparent;
+  background-color:black;
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.221);
+  border-radius: 10px;
+}
+.blue {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  top: -15rem;
+  left: -58rem;
+  box-shadow: 0 0 100rem 25rem #120b2dcd;
+  background-color: #140c34;
+  /* background: radial-gradient(#3b2290, #3c229095); */
+}
+.violet {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+
+  top: -15rem;
+  right: -58rem;
+  box-shadow: 0 0 100rem 25rem #25081db3;
+  background-color: #25081d;
+  /* background: radial-gradient(#3b2290, #3c229095); */
+}
+.div h1{
+  /* font-family: under; */
+  -webkit-text-stroke: 2px  orange;
+  font-weight: 700;
+  color: transparent; font-size: 8rem;
+}
+
+.h::after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: -15%;
+  left: 0%;
+  background-color: #fff;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform ease-in-out .35s;
+}
+.h:hover::after{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+#nav{
+  color: rgba(255, 255, 255, 0.696);
+}
+#nav button{
+  border-color: rgba(255, 255, 255, 0.575);
+}
+.page>h1{
+  -webkit-text-stroke: 1px orange;
+  color: transparent;
 }
