@@ -24,14 +24,14 @@ const Loader = () => {
           page.current.style.display = "none";
         },
       });
-      tl.from("#page1 img,#page1 h2",{
-        opacity:0,y:20
+      tl.from("#page1 img,#page1 h2,#btn",{
+        opacity:0,y:20,stagger:.3
       },)
     }, 2000);
   }, []);
 
   return (
-    <div ref={page} className="h-screen w-full bg-black fixed top-0 left-0 z-[99999] flex items-center justify-center">
+    <div ref={page} className="h-screen w-full bg-black fixed top-0 left-0 z-[99999999999] flex items-center justify-center">
       <div className="blue"></div>
       <div className="violet"></div>
       <img ref={img} src={"logo.png"} alt="" />
