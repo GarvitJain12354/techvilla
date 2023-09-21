@@ -28,7 +28,7 @@ const Nav = () => {
           }
         >
           <button className="py-2 border-2 px-8 rounded-lg text-lg md:hidden">
-            Join Us
+            Enroll Now
           </button>
         </Link>
         <div className="flex items-center justify-center gap-6 max-md:hidden relative z-50">
@@ -44,15 +44,7 @@ const Nav = () => {
           {/* <Link className="h relative text-lg" href={"#footer"}>
             Contact
           </Link> */}
-          <Link
-            href={
-              "https://docs.google.com/forms/d/e/1FAIpQLSd7-IY5LZrD4EJUp3QjnA1lE-56rdrPINNgcXyW7esOLBatYg/viewform"
-            }
-          >
-            <button className="py-2 border-2 px-8 rounded-lg text-lg">
-              Join Us
-            </button>
-          </Link>
+       
         </div>
       </div>
 
