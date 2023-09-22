@@ -37,7 +37,7 @@ const Page4 = () => {
       </div>
       <div className="flex flex-wrap  w-full items-center justify-center gap-8 ">
       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
-        <img className='h-48 w-48 rounded-lg' src={"/Aryan.png"} alt="" />
+        <img className='h-48 w-48 rounded-lg' src={"/aryan.png"} alt="" />
         <h1 className='text-xl'>Aryan Singh Parihar</h1>
         <h3>President</h3>
        </div>
