@@ -26,6 +26,8 @@ const Nav = () => {
           href={
             "https://docs.google.com/forms/d/e/1FAIpQLSd7-IY5LZrD4EJUp3QjnA1lE-56rdrPINNgcXyW7esOLBatYg/viewform"
           }
+          target="_blank"
+
         >
           <button className="py-2 border-2 px-8 rounded-lg text-lg md:hidden">
             Enroll Now
@@ -44,7 +46,16 @@ const Nav = () => {
           {/* <Link className="h relative text-lg" href={"#footer"}>
             Contact
           </Link> */}
-       
+       <Link
+          href={
+            "https://docs.google.com/forms/d/e/1FAIpQLSd7-IY5LZrD4EJUp3QjnA1lE-56rdrPINNgcXyW7esOLBatYg/viewform"
+          }
+          target="_blank"
+        >
+          <button className="py-2 border-2 px-8 rounded-lg text-lg max-md:hidden">
+           Join Us
+          </button>
+        </Link>
         </div>
       </div>
 

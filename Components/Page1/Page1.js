@@ -64,6 +64,7 @@ const Page1 = () => {
             href={
               "https://docs.google.com/forms/d/e/1FAIpQLSd7-IY5LZrD4EJUp3QjnA1lE-56rdrPINNgcXyW7esOLBatYg/viewform"
             }
+            target='_blank'
           >
             <button id='btn' className="py-2 z-[999999] max-md:hidden border-2 px-8 text-white rounded-lg text-lg fixed top-[65%] left-[50%] -translate-x-1/2">
               Enroll Now
