@@ -34,7 +34,7 @@ const Nav = () => {
           </button>
         </Link>
         <div className="flex items-center justify-center gap-6 max-md:hidden relative z-50">
-          <Link className="h relative text-lg" href={"#page1"}>
+          <Link className="h relative text-lg" href={"/"}>
             Home
           </Link>
           <Link className="h relative text-lg" href={"#page3"}>

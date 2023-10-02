@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Page4 = () => {
@@ -12,12 +13,14 @@ const Page4 = () => {
       </div>
       <h1 className='text-7xl relative z-40 font-bold mt-4 uppercase max-md:text-5xl'>Our Team</h1>
      
-      <div className="card  h-fit relative z-40  gap-2 items-center justify-center flex flex-col  p-4 border-b">
+    <Link href={"/details/raisir"}>
+    <div className="card  h-fit relative z-40  gap-2 items-center justify-center flex flex-col  p-4 border-b">
         <img className='h-48 w-48 rounded-xl' src={"/RaiSir.png"} alt="" />
         <h1 className='text-xl'>Dr. Ashok Kumar Rai</h1>
         <h3>Director Administration</h3>
         <h3>Patron</h3>
        </div>
+    </Link>
       <div className="flex items-center justify-center gap-10 relative z-40 flex-wrap">
       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
       <img className='h-48 w-48 rounded-xl object-cover' src={"/Sir.png"} alt="" />
