@@ -70,6 +70,11 @@ const Page4 = () => {
         <h3>Marketing &  PR</h3>
        </div>
        <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
+        <img className='h-48 w-48 rounded-lg' src={"/Himanshu.png"} alt="" />
+        <h1 className='text-xl'>Himanshu Bhardwaj</h1>
+        <h3>Community Analyst</h3>
+       </div>
+       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 object-contain rounded-xl' src={"/garvit.png"} alt="" />
         <h1 className='text-xl'>Garvit Jain</h1>
         <h3>Web Developer</h3>
