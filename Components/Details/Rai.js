@@ -5,11 +5,11 @@ const Rai = () => {
    <div className="min-h-screen w-full bg-black relative overflow-hidden justify-center items-center">
     <div className="blue"></div>
     <div className="violet"></div>
-    <div className="flex w-full relative z-40 mt-40 px-16 text-white">
+    <div className="flex w-full relative z-40 mt-40 px-16 text-white max-md:flex-col max-md:px-4 max-md:items-center max-md:justify-center">
         <div className="img h-60 w-60 shrink-0">
             <img className='rounded-xl' src={"/RaiSir.png"} alt="" />
         </div>
-        <div className="flex flex-col px-16 py-4 gap-4">
+        <div className="flex flex-col px-16  py-4 gap-4 max-md:px-0 max-md:text-center max-md:w-full max-md:gap-8">
             <h1 className='text-5xl font-semibold'>Dr. Ashok Kumar Rai</h1>
             <h3 className='text-3xl'>Director Administrator LNCT Group of Colleges</h3>
             <p className='text-xl'>

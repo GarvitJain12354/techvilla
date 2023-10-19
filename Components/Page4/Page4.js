@@ -45,19 +45,20 @@ const Page4 = () => {
         <h3>President</h3>
        </div>
        <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
-        <img className='h-48 w-48 rounded-lg' src={"/astha.png"} alt="" />
-        <h1 className='text-xl'>Astha Patel</h1>
-        <h3>Vice President</h3>
-       </div>
-       
-      
-      </div>
-      <div className="flex flex-wrap  w-full items-center justify-center gap-8">
-      <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 w-48 rounded-lg' src={"/Athar.png"} alt="" />
         <h1 className='text-xl'>Athar Khan</h1>
         <h3>Secretary</h3>
        </div>
+       {/* <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
+        <img className='h-48 w-48 rounded-lg' src={"/astha.png"} alt="" />
+        <h1 className='text-xl'>Astha Patel</h1>
+        <h3>Vice President</h3>
+       </div> */}
+       
+      
+      </div>
+      <div className="flex flex-wrap  w-full items-center justify-center gap-8">
+   
       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 w-48 rounded-lg' src={"/mansi.png"} alt="" />
         <h1 className='text-xl'>Tanya Talreja</h1>
