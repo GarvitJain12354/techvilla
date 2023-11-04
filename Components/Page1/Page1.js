@@ -37,7 +37,7 @@ const Page1 = () => {
         end:0,
         scrub:.1
         },
-        top:"5%"
+        top:"3%"
       })
       gsap.to("#nav",{
         scrollTrigger:{

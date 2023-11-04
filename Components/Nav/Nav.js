@@ -14,11 +14,11 @@ const Nav = () => {
     <>
       <div
         id="nav"
-        className="w-full  flex items-center justify-between px-12 py-2 z-50 fixed top-0 left-0  "
+        className="w-full  flex items-center justify-between px-12 z-50 fixed top-0 left-0  "
       >
         <div className="flex items-center justify-center gap-4">
           <Link href={"https://lnct.ac.in/"}>
-            <img className="h-28  object-contain" src={"/Lnct.png"} alt="" />
+            <img className="h-24  object-contain" src={"/Lnct.png"} alt="" />
           </Link>
           {/* <Link href={"/"}><img className='h-20  object-contain' src={"/logo.png"} alt="" /></Link> */}
         </div>

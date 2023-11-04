@@ -88,3 +88,42 @@ html,body{
   -webkit-text-stroke: 1px orange;
   color: transparent;
 }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#gallery{
+  height: calc(100vh - 6vh);
+}
+@media (max-width:500px) {
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  #gallery{
+    height:50vh;
+  }
+  .page{
+    margin-top: -2px;
+  }
+}

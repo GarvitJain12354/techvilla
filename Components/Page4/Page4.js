@@ -64,11 +64,11 @@ const Page4 = () => {
         <h1 className='text-xl'>Tanya Talreja</h1>
         <h3>Treasurer</h3>
        </div>
-       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
+       {/* <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 w-48 rounded-lg object-cover' src={"/akshat.png"} alt="" />
         <h1 className='text-xl'>Akshat Gupta</h1>
         <h3>Marketing &  PR</h3>
-       </div>
+       </div> */}
        <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 w-48 rounded-lg' src={"/Himanshu.png"} alt="" />
         <h1 className='text-xl'>Himanshu Bhardwaj</h1>

@@ -1,5 +1,6 @@
 import About from "@/Components/About/About"
 import Footer from "@/Components/Footer/Footer"
+import Gallery from "@/Components/Gallery/Gallery"
 import Garvit from "@/Components/Garvit/Garvit"
 import Loader from "@/Components/Loader/Loader"
 import Nav from "@/Components/Nav/Nav"
@@ -10,6 +11,7 @@ import Page4 from "@/Components/Page4/Page4"
 import Social from "@/Components/Social/Social"
 
 import React from "react"
+
 const page = () => {
 
 
@@ -19,6 +21,7 @@ const page = () => {
   <Loader/>
  <Nav/>
     <Page1/>
+    <Gallery/>
     <Page2/>
     <About/>
     <Page3/>
