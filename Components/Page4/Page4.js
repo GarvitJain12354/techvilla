@@ -69,38 +69,39 @@ const Page4 = () => {
         <h1 className='text-xl'>Akshat Gupta</h1>
         <h3>Marketing &  PR</h3>
        </div> */}
-       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
-        <img className='h-48 w-48 rounded-lg' src={"/Himanshu.png"} alt="" />
-        <h1 className='text-xl'>Himanshu Bhardwaj</h1>
-        <h3>Social Media Mananger</h3>
-       </div>
+     
        <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 object-contain rounded-xl' src={"/garvit.png"} alt="" />
         <h1 className='text-xl'>Garvit Jain</h1>
         <h3>Tech Lead</h3>
        </div>
-     
+       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
+        <img className='h-48 w-48 object-cover rounded-lg' src={"/Merenna.png"} alt="" />
+        <h1 className='text-xl'>Mereena R Thomas</h1>
+        <h3>Creative Lead</h3>
+       </div>
     
     
       </div>
       <div className="flex flex-wrap relative z-40 w-full items-center justify-center gap-8 ">
-        
+      <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
+        <img className='h-48 w-48 rounded-lg object-cover' src={"/Chiku.png"} alt="" />
+        <h1 className='text-xl'>Abhishek Yadav</h1>
+        <h3>Marketing Manager</h3>
+       </div> 
+      <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
+        <img className='h-48 w-48 rounded-lg' src={"/Himanshu.png"} alt="" />
+        <h1 className='text-xl'>Himanshu Bhardwaj</h1>
+        <h3>Social Media Manager</h3>
+       </div>
        {/* <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 w-48 rounded-lg' src={"/Harshita.png"} alt="" />
         <h1 className='text-xl'>Harshita Sharma</h1>
         <h3>Content Manager</h3>
         <h3></h3>
        </div> */}
-      <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
-        <img className='h-48 w-48 object-cover rounded-lg' src={"/Merenna.png"} alt="" />
-        <h1 className='text-xl'>Mereena R Thomas</h1>
-        <h3>Creative Lead</h3>
-       </div>
-       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
-        <img className='h-48 w-48 rounded-lg object-cover' src={"/Chiku.png"} alt="" />
-        <h1 className='text-xl'>Abhishek Yadav</h1>
-        <h3>Marketing Manager</h3>
-       </div> 
+     
+
        {/* <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 w-48 object-cover rounded-lg' src={"/Ayush.png"} alt="" />
         <h1 className='text-xl'>Ayush Ranjan</h1>
