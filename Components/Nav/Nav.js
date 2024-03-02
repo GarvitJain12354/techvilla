@@ -24,13 +24,13 @@ const Nav = () => {
         </div>
         <Link
           href={
-            "https://docs.google.com/forms/d/e/1FAIpQLSd7-IY5LZrD4EJUp3QjnA1lE-56rdrPINNgcXyW7esOLBatYg/viewform"
+            "/codebeta"
           }
           target="_blank"
 
         >
           <button className="py-2 border-2 px-8 rounded-lg text-lg md:hidden">
-            Enroll Now
+            CODE BETA
           </button>
         </Link>
         <div className="flex items-center justify-center gap-6 max-md:hidden relative z-50">
@@ -38,7 +38,7 @@ const Nav = () => {
             Home
           </Link>
           <Link className="h relative text-lg" href={"#page3"}>
-            Upcoming Events
+             Events
           </Link>
           <Link className="h relative text-lg" href={"#page4"}>
             Our Team
@@ -48,7 +48,7 @@ const Nav = () => {
           </Link> */}
        <Link
           href={
-            "https://docs.google.com/forms/d/e/1FAIpQLSd7-IY5LZrD4EJUp3QjnA1lE-56rdrPINNgcXyW7esOLBatYg/viewform"
+            "https://linktr.ee/techvilla_lnct"
           }
           target="_blank"
         >

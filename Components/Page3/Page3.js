@@ -14,7 +14,7 @@ const Page3 = () => {
         id="page3"
         className="page min-h-screen flex-col w-full flex gap-8 items-center justify-center text-white  bg-black"
       >
-        <h1 className="text-6xl font-bold uppercase max-md:text-4xl">Upcoming Events</h1>
+        <h1 className="text-6xl font-bold uppercase max-md:text-4xl">Completed Events</h1>
         <div className="w-[90%] h-fit flex items-center justify-center p-8 max-md:flex-col">
           <div className="events flex flex-col items-center justify-center w-1/2  text-white max-md:w-full">
            
