@@ -36,7 +36,8 @@ const page = () => {
             
           />
         )}
-        <video src="/codebeta.mp4" className="w-full h-full relative " autoPlay loop muted></video>
+        {/* <video src="/codebeta.mp4" className="w-full h-full relative " autoPlay loop muted></video> */}
+        <img src="/poster.png" className="h-full object-contain w-full"  alt="" />
       </div>
     </>
   );
