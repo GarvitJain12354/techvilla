@@ -86,7 +86,7 @@ const Page4 = () => {
       
       <div className="flex flex-wrap relative z-40 w-full items-center justify-center gap-8 ">
       <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
-        <img className='h-48 w-48 rounded-lg object-cover' src={"/adarsh.jpeg"} alt="" />
+        <img className='h-48 w-48 rounded-lg object-cover' src={"/Adarsh.jpeg"} alt="" />
         <h1 className='text-xl'>Adarsh kathriya </h1>
         <h3>LNCTE Lead {"("}Tech Lead{")"}</h3>
        </div> 
