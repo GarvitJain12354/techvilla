@@ -20,9 +20,11 @@ const Page4 = () => {
         <h3>Director Administration</h3>
         <h3>Patron</h3>
        </div>
-    </Link>
+    </Link> 
+   
       <div className="flex items-center justify-center gap-10 relative z-40 flex-wrap">
-      <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
+      <Link href={"/details/adityasir"}>
+    <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
       <img className='h-48 w-48 rounded-xl object-cover' src={"/Sir.png"} alt="" />
         
         <h1 className='text-xl'>Prof. Aditya Patel </h1>
@@ -31,6 +33,7 @@ const Page4 = () => {
 
        </div>
        
+    </Link>
        <div className="card  h-fit p-3  gap-2 items-center justify-center flex flex-col border-b">
         <img className='h-48 w-48 rounded-lg' src={"/Maam.png"} alt="" />
         <h1 className='text-xl'>Dr. Nidhi Singh</h1>
